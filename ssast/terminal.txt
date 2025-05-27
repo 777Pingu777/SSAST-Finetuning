@@ -1,0 +1,12 @@
+python ./ssast/finetune_asvspoof2021.py `
+  --train-meta        ./ssast/DF-keys-full/keys/DF/CM/trial_metadata.txt `
+  --dev-meta          ./ssast/DF-keys-full/keys/DF/CM/trial_metadata.txt `
+  --audio-root        ./ssast/ASVspoof2021_DF `
+  --pretrained-path   ./ssast/pretrained_weights/SSAST-Tiny-Frame-400.pth `
+  --model-size        tiny `
+  --batch-size        16 `
+  --lr                1e-4 `
+  --epochs            1 `
+  --subset-fraction   0.00001 `
+  --output-dir        ./ssast/finetuned_weights `
+  --test-root         ./ssast/test_data
