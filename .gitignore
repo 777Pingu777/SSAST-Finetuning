@@ -1,18 +1,12 @@
-﻿# Virtual env
-.venv/
+﻿.venv/
 venv/
-
-# Bytecode caches
 __pycache__/
 .pytest_cache/
 *.py[cod]
-
-# Data & outputs
 ASVspoof2021_DF/
 test_data/
 finetuned_weights/
 DF-keys-full/
-
-# IDE configs
+terminal.txt
 .idea/
 *.iml
